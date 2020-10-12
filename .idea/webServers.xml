@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a36f9a95-a49f-4ee2-8a9f-04c8bcf847bb" name="WiPy" url="http://10.0.1.25">
+        <fileTransfer host="10.0.1.25" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7efc613b-c63b-4acf-a894-fd97c90d7f14" name="WiPyPlants" url="http://10.0.1.200:8266/">
+        <fileTransfer host="10.0.1.200:8266" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
